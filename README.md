@@ -1,5 +1,7 @@
 # Railsware CI base image
 
+Use this to get a typical CircleCI build up and running with all dependencies
+
 ## Contents
 
 - Ruby
@@ -8,6 +10,8 @@
 - Chrome
 - Chromedriver
 - Libraries for PostgreSQL and SQLite clients
+
+Everything is in `$PATH`
 
 ## Building
 
