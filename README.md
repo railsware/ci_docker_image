@@ -1,5 +1,7 @@
 # Railsware CI base image
 
+https://hub.docker.com/r/railsware/ci/
+
 Use this to get a typical CircleCI build up and running with all dependencies
 
 ## Contents
