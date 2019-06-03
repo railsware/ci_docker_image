@@ -1,7 +1,8 @@
 MAJOR_VERSION=0
+MINOR_VERSION=1
 REPO=railsware/ci
 DATE=$(shell date +"%Y-%m-%d")
-TAG=v${MAJOR_VERSION}_ubuntu-${UBUNTU_VERSION}_ruby-${RUBY_VERSION}_nodejs-${NODE_VERSION}_yarn-${YARN_VERSION}_chromedriver-${CHROMEDRIVER_VERSION}_${DATE}
+TAG=v${MAJOR_VERSION}.${MINOR_VERSION}_ubuntu-${UBUNTU_VERSION}_ruby-${RUBY_VERSION}_nodejs-${NODE_VERSION}_yarn-${YARN_VERSION}_chromedriver-${CHROMEDRIVER_VERSION}_${DATE}
 
 default: build tag push
 
