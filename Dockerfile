@@ -7,7 +7,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 
 # Install packages from repos
 RUN \
-  apt-get update && apt-get install -y \
+  apt-get update --fix-missing && apt-get install -y \
   bzip2 \
   curl \
   git \
